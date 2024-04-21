@@ -11,5 +11,7 @@
   "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
 
-  "item.tutorialmod.metal_detector": "Metal Detector"
+  "item.tutorialmod.metal_detector": "Metal Detector",
+
+  "item.tutorialmod.strawberry": "Strawberry"
 }

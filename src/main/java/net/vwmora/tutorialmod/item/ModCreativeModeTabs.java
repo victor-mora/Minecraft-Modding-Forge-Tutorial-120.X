@@ -31,6 +31,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
+
+                        output.accept(ModItems.STRAWBERRY.get());
                     })
                     .build());
 
