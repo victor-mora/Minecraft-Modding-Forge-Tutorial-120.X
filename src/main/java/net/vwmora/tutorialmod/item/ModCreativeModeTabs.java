@@ -34,6 +34,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.STRAWBERRY.get());
                         output.accept(ModItems.PINE_CONE.get());
+                        output.accept(ModItems.SAPPHIRE_STAFF.get());
 
                         output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         output.accept(ModBlocks.SAPPHIRE_SLAB.get());
