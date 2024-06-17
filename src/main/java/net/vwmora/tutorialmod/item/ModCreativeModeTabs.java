@@ -36,6 +36,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PINE_CONE.get());
                         output.accept(ModItems.SAPPHIRE_STAFF.get());
 
+                        output.accept(ModItems.SAPPHIRE_SWORD.get());
+                        output.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                        output.accept(ModItems.SAPPHIRE_AXE.get());
+                        output.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                        output.accept(ModItems.SAPPHIRE_HOE.get());
+
                         output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         output.accept(ModBlocks.SAPPHIRE_SLAB.get());
                         output.accept(ModBlocks.SAPPHIRE_BUTTON.get());
