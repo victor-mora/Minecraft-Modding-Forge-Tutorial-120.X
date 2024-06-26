@@ -53,6 +53,11 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.SAPPHIRE_DOOR.get());
                         output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+
+                        output.accept(ModItems.SAPPHIRE_HELMET.get());
+                        output.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        output.accept(ModItems.SAPPHIRE_BOOTS.get());
                     })
                     .build());
 
