@@ -60,6 +60,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_BOOTS.get());
 
                         output.accept(ModItems.STRAWBERRY_SEEDS.get());
+
+                        output.accept(ModItems.CORN.get());
+                        output.accept(ModItems.CORN_SEEDS.get());
                     })
                     .build());
 

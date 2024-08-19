@@ -32,6 +32,9 @@
 
   "item.tutorialmod.strawberry_seeds": "Strawberry Seeds",
 
+  "item.tutorialmod.corn": "Corn",
+  "item.tutorialmod.corn_seeds": "Corn Seeds",
+
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
 
   "block.tutorialmod.sapphire_stairs": "Sapphire Stairs",

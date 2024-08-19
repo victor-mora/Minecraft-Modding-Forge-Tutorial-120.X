@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.vwmora.tutorialmod.TutorialMod;
+import net.vwmora.tutorialmod.block.custom.CornCropBlock;
 import net.vwmora.tutorialmod.block.custom.SoundBlock;
 import net.vwmora.tutorialmod.block.custom.StrawberryCropBlock;
 import net.vwmora.tutorialmod.item.ModItems;
@@ -67,6 +68,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+    public static final RegistryObject<Block> CORN_CROP = BLOCKS.register("corn_crop",
+            () -> new CornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
