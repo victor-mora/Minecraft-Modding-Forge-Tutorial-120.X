@@ -46,5 +46,7 @@
   "block.tutorialmod.sapphire_wall": "Sapphire Wall",
   "block.tutorialmod.sapphire_door": "Sapphire Door",
   "block.tutorialmod.sapphire_trapdoor": "Sapphire Trapdoor",
-  "block.tutorialmod.catmint": "Catmint"
+  "block.tutorialmod.catmint": "Catmint",
+
+  "entity.minecraft.villager.tutorialmod.soundmaster": "Sound Master"
 }

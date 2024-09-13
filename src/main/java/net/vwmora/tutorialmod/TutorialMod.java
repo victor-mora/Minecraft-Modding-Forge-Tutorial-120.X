@@ -21,6 +21,7 @@ import net.vwmora.tutorialmod.block.ModBlocks;
 import net.vwmora.tutorialmod.item.ModCreativeModeTabs;
 import net.vwmora.tutorialmod.item.ModItems;
 import net.vwmora.tutorialmod.loot.ModLootModifiers;
+import net.vwmora.tutorialmod.villager.ModVillagers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -43,6 +44,8 @@ public class TutorialMod
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
