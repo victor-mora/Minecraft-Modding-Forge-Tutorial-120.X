@@ -21,6 +21,7 @@ import net.vwmora.tutorialmod.block.ModBlocks;
 import net.vwmora.tutorialmod.item.ModCreativeModeTabs;
 import net.vwmora.tutorialmod.item.ModItems;
 import net.vwmora.tutorialmod.loot.ModLootModifiers;
+import net.vwmora.tutorialmod.sound.ModSounds;
 import net.vwmora.tutorialmod.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -46,6 +47,8 @@ public class TutorialMod
         ModLootModifiers.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

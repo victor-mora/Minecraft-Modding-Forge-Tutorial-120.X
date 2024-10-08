@@ -48,5 +48,7 @@
   "block.tutorialmod.sapphire_trapdoor": "Sapphire Trapdoor",
   "block.tutorialmod.catmint": "Catmint",
 
-  "entity.minecraft.villager.tutorialmod.soundmaster": "Sound Master"
+  "entity.minecraft.villager.tutorialmod.soundmaster": "Sound Master",
+
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle"
 }
