@@ -64,6 +64,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CORN.get());
                         output.accept(ModItems.CORN_SEEDS.get());
 
+                        output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
                         output.accept(ModBlocks.CATMINT.get());
                     })
                     .build());
