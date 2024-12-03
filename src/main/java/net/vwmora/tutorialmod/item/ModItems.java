@@ -1,12 +1,14 @@
 package net.vwmora.tutorialmod.item;
 
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.vwmora.tutorialmod.TutorialMod;
 import net.vwmora.tutorialmod.block.ModBlocks;
+import net.vwmora.tutorialmod.entity.ModEntities;
 import net.vwmora.tutorialmod.item.custom.FuelItem;
 import net.vwmora.tutorialmod.item.custom.MetalDetectorItem;
 import net.vwmora.tutorialmod.item.custom.ModArmorItem;
@@ -64,6 +66,9 @@ public class ModItems {
             ITEMS.register("corn_seeds", () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> CORN =
             ITEMS.register("corn", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

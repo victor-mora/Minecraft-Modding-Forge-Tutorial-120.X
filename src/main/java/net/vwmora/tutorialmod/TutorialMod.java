@@ -1,6 +1,7 @@
 package net.vwmora.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -18,6 +19,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.vwmora.tutorialmod.block.ModBlocks;
+import net.vwmora.tutorialmod.entity.ModEntities;
+import net.vwmora.tutorialmod.entity.client.RhinoRenderer;
 import net.vwmora.tutorialmod.item.ModCreativeModeTabs;
 import net.vwmora.tutorialmod.item.ModItems;
 import net.vwmora.tutorialmod.loot.ModLootModifiers;
@@ -49,6 +52,8 @@ public class TutorialMod
         ModVillagers.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -94,7 +99,7 @@ public class TutorialMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
         }
     }
 }
